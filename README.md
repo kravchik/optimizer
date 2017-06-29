@@ -1,5 +1,5 @@
 ## Disclaimer
-It is a library for automatic code optimization. Currently, it is best suited for math algorithm optimization: matrix, and vector math, for example. It works with Java and CSarp and can be easily extended to any new language.
+It is a library for automatic code optimization. Currently, it is best suited for math algorithm optimization: matrix, and vector math, for example. It can optimize Java and CSarp code and can easily be extended to any new language.
 
 ## Optimization
 ### write simple code -> run effective code
