@@ -1,7 +1,15 @@
 ## Welcome to GitHub Pages
 
 ## Disclaimer
+Tool for automatic code optimization. Currently, it is best suited for math algorithm optimization - matrix, and vector math, for example.
 ## Current features
+### unroll cycles
+   code examples
+### calculate constants
+   code examples
+### inline methods, and objects. 
+   code examples
+### write simple code -> run effective code
    code examples
 ## Current plans/todos
 ## State of the project
