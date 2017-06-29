@@ -1,7 +1,5 @@
-## Welcome to GitHub Pages
-
 ## Disclaimer
-Tool for automatic code optimization. Currently, it is best suited for math algorithm optimization: matrix, and vector math, for example.
+It is a library for automatic code optimization. Currently, it is best suited for math algorithm optimization: matrix, and vector math, for example. It works with Java and CSarp and can be easily extended to any new language.
 
 ## Optimization
 ### write simple code -> run effective code
