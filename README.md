@@ -12,7 +12,7 @@ Tool for automatic code optimization. Currently, it is best suited for math algo
    code examples
 ### write simple code -> run effective code
 For example, we have matrix multiplication. Straightforward mathematic algorithm independent of constants:
-```
+```java
     void multiply(int w, int h, float[] ab, float[] a, float[] b) {
         for (int i = 1; i <= w; i++) {
             for (int j = 1; j <= h; j++) {
@@ -24,13 +24,13 @@ For example, we have matrix multiplication. Straightforward mathematic algorithm
     }
 ```
 Then we want to use it:
-```
+```java
     void multiply33(float[] ab, float[] a, float[] b) {
         multiply(3, 3, ab, a, b);
     }
 ```
 If we run optimization on it, we will get a highly optimized code, ready to be part of any utility library:
-```
+```java
     void multiply33Optimized(float[] ab, float[] a, float[] b) {
         ab[0] = a[0] * b[0] + a[1] * b[3] + a[2] * b[6];
         ab[1] = a[0] * b[1] + a[1] * b[4] + a[2] * b[7];
