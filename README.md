@@ -5,6 +5,7 @@ Tool for automatic code optimization. Currently, it is best suited for math algo
 
 ## Optimization
 ### write simple code -> run effective code
+*TODO motivation*
 For example, we have matrix multiplication. Straightforward mathematic algorithm independent of constants:
 ```java
     void multiply(int w, int h, float[] ab, float[] a, float[] b) {
@@ -36,6 +37,11 @@ If we run optimization on it, we will get a highly optimized code, ready to be p
         ab[7] = a[6] * b[1] + a[7] * b[4] + a[8] * b[7];
         ab[8] = a[6] * b[2] + a[7] * b[5] + a[8] * b[8];
     }
+```
+###object inline
+In Java, you can have algorithms dependent on many small objects (Vectors, Matrices). Although there is a JIT, you can not always rely on it: it can miss some possible optimizations, it took time to warm up. So, in some cases (library methods, for example, or hot code) - you want just to make these optimizations in advance and leave JIT to deal with other parts of a code.
+```java
+  //TODO
 ```
 
 ## Current features
