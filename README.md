@@ -4,12 +4,6 @@
 Tool for automatic code optimization. Currently, it is best suited for math algorithm optimization: matrix, and vector math, for example.
 
 ## Optimization
-### unroll cycles
-   code examples
-### calculate constants
-   code examples
-### inline methods, and objects
-   code examples
 ### write simple code -> run effective code
 For example, we have matrix multiplication. Straightforward mathematic algorithm independent of constants:
 ```java
@@ -44,11 +38,13 @@ If we run optimization on it, we will get a highly optimized code, ready to be p
     }
 ```
 
-
 ## Current features
-- Optimization of Java code
-- Optimization of CSharp code
-- Code conversion Java <-> CSarp
+* Optimization of Java and CSarp code
+  * constants calculation
+  * cycle unroll
+  * method inline
+  * object inline
+* Code conversion Java <-> CSarp
 
 ## Current plans/todos
 - add support for all the rare features of Java and CSharp (i.e., features, and syntax I don't see in my current tasks)
