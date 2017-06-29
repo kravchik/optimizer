@@ -1,10 +1,10 @@
 ## Welcome to GitHub Pages
 
-# Disclaimer
-# Current features
+## Disclaimer
+## Current features
    code examples
-# Current plans/todos
-# State of the project
+## Current plans/todos
+## State of the project
   interested? e-mail
 
 
