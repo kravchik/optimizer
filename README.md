@@ -2,20 +2,34 @@
 
 ## Disclaimer
 Tool for automatic code optimization. Currently, it is best suited for math algorithm optimization - matrix, and vector math, for example.
-## Current features
+
+## Optimization
 ### unroll cycles
    code examples
 ### calculate constants
    code examples
-### inline methods, and objects. 
+### inline methods, and objects
    code examples
 ### write simple code -> run effective code
    code examples
+
+## Current features
+- Optimization of Java code
+- Optimization of CSharp code
+- Code conversion Java <-> CSarp
+
 ## Current plans/todos
+- add support for all the rare features of Java and CSharp (i.e., features, and syntax I don't see in my current tasks)
+- Python parser/generator (optimization/conversion toolset will be available automatically, as it's language independent)
+- C++ code generator
+
 ## State of the project
-  interested? e-mail
+It is currently in a dormant mode. I'm using it for my projects, and add features as needed. If you are interested in it - e-mail me.
 
 
+
+
+# TODO remove further
 
 You can use the [editor on GitHub](https://github.com/kravchik/optimizer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
