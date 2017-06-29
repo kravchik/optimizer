@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 ## Disclaimer
-Tool for automatic code optimization. Currently, it is best suited for math algorithm optimization - matrix, and vector math, for example.
+Tool for automatic code optimization. Currently, it is best suited for math algorithm optimization: matrix, and vector math, for example.
 
 ## Optimization
 ### unroll cycles
@@ -29,7 +29,7 @@ It is currently in a dormant mode. I'm using it for my projects, and add feature
 
 
 
-# TODO remove further
+# ========= TODO cut here ============
 
 You can use the [editor on GitHub](https://github.com/kravchik/optimizer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
