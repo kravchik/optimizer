@@ -59,4 +59,4 @@ In Java, you can have algorithms dependent on many small objects (Vectors, Matri
 - C++ code generator
 
 ## State of the project
-It is currently in a dormant mode. I'm using it for my projects, and add features as needed. If you are interested in it - e-mail me.
+It is currently in a dormant mode. I'm using it for my projects, and add features as needed. If you are interested in it - e-mail me kravchiky@gmail.com
